@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="Weather Information"
+        android:layout_margin="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:onClick="berlin"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/berlinweatherpic"
+                android:text="Berlin                              0°C\nSnowing                                "
+                android:textAllCaps="false"
+                android:textSize="24sp"/>
+            <Button
+                android:id="@+id/btn2"
+                android:onClick="Bangalore"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="Bangalore                   23°C\nThunderstorms                   "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:drawableLeft="@drawable/bangaloreweatherpic"/>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="London                         5°C\nRainy                                   "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:onClick="London"
+                android:drawableLeft="@drawable/london"/>
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="New York                     18°C\nCloudy                                  "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:onClick="newyork"
+                android:drawableLeft="@drawable/newyork"/>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="Sydney                         32°C\nSunny                                   "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:onClick="Sydney"
+                android:drawableLeft="@drawable/sydney"/>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/berlinweatherpic"
+                android:text="Montreal                     -18°C\nSnowing                               "
+                android:textAllCaps="false"
+                android:onClick="montreal"
+                android:textSize="24sp"/>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="Delhi                             25°C\nThunderstorms                   "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:onClick="delhi"
+                android:drawableLeft="@drawable/bangaloreweatherpic"/>
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="Los Angeles                 9°C\nRainy                                   "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:onClick="los"
+                android:drawableLeft="@drawable/london"/>
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="Dubai                           13°C\nCloudy                                  "
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:onClick="dubai"
+                android:drawableLeft="@drawable/newyork"/>
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:text="Perth                            35°C\nSunny                                   "
+                android:textAllCaps="false"
+                android:onClick="perth"
+                android:textSize="24sp"
+                android:drawableLeft="@drawable/sydney"/>
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/berlinweatherpic"
+                android:text="Toronto                        -10°C\nSnowing                                "
+                android:textAllCaps="false"
+                android:onClick="toronto"
+                android:textSize="24sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
